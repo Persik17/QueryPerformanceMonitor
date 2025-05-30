@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Data\ApplicationDbContext\ApplicationDbContext.Scripts\**" />
+    <Compile Remove="Data\PostgresDbContext\PostgresDbContext.Scripts\**" />
+    <Content Remove="Data\ApplicationDbContext\ApplicationDbContext.Scripts\**" />
+    <Content Remove="Data\PostgresDbContext\PostgresDbContext.Scripts\**" />
+    <EmbeddedResource Remove="Data\ApplicationDbContext\ApplicationDbContext.Scripts\**" />
+    <EmbeddedResource Remove="Data\PostgresDbContext\PostgresDbContext.Scripts\**" />
+    <None Remove="Data\ApplicationDbContext\ApplicationDbContext.Scripts\**" />
+    <None Remove="Data\PostgresDbContext\PostgresDbContext.Scripts\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.66" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.4" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Npgsql" Version="9.0.3" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="8.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\QueryPerformanceMonitor\QueryPerformanceMonitor.csproj" />
+  </ItemGroup>
+
+</Project>
