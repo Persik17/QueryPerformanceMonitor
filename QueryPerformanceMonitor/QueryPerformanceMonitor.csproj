@@ -4,8 +4,8 @@
     <TargetFramework>net9.0</TargetFramework>
 	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 	  <Version>1.0.0</Version>
-	  <Authors>Your Name</Authors>
-	  <Company>Your Company</Company>
+	  <Authors>Kraychik Aleksandr</Authors>
+	  <Company>Persik17</Company>
 	  <Description>A library for monitoring query performance in ASP.NET Core applications.</Description>
 	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
 	  <PackageProjectUrl>https://github.com/Persik17/QueryPerformanceMonitor</PackageProjectUrl>
