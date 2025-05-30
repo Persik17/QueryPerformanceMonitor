@@ -7,6 +7,7 @@ using Npgsql;
 using QueryPerformanceMonitor.Core;
 using QueryPerformanceMonitor.EntityFramework;
 using QueryPerformanceMonitor.Dapper;
+using System;
 
 namespace QueryPerformanceMonitor.Extensions
 {

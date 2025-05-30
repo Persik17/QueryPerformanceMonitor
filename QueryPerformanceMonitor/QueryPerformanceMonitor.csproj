@@ -2,8 +2,16 @@
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	  <Version>1.0.0</Version>
+	  <Authors>Your Name</Authors>
+	  <Company>Your Company</Company>
+	  <Description>A library for monitoring query performance in ASP.NET Core applications.</Description>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <PackageProjectUrl>https://github.com/Persik17/QueryPerformanceMonitor</PackageProjectUrl>
+	  <RepositoryUrl>https://github.com/Persik17/QueryPerformanceMonitor</RepositoryUrl>
+	  <RepositoryType>git</RepositoryType>
+	  <PackageTags>efcore dapper mssql postgresql performance monitoring aspnetcore</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>

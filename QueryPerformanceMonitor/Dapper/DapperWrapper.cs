@@ -4,6 +4,9 @@ using Microsoft.Extensions.Options;
 using System.Data;
 using System.Diagnostics;
 using System.Text.RegularExpressions;
+using System.Threading.Tasks;
+using System;
+using System.Collections.Generic;
 
 namespace QueryPerformanceMonitor.Dapper
 {

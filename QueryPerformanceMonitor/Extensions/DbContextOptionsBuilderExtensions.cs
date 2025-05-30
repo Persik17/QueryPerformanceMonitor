@@ -1,6 +1,7 @@
 ﻿using QueryPerformanceMonitor.EntityFramework;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using System;
 
 namespace QueryPerformanceMonitor.Extensions
 {

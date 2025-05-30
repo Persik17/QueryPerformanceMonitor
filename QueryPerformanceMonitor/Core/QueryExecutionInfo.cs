@@ -1,4 +1,7 @@
-﻿namespace QueryPerformanceMonitor.Core
+﻿using System;
+using System.Collections.Generic;
+
+namespace QueryPerformanceMonitor.Core
 {
     public class QueryExecutionInfo
     {

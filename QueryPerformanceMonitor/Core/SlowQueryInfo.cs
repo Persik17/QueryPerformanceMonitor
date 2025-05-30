@@ -1,4 +1,6 @@
-﻿namespace QueryPerformanceMonitor.Core
+﻿using System;
+
+namespace QueryPerformanceMonitor.Core
 {
     public class SlowQueryInfo : QueryExecutionInfo
     {

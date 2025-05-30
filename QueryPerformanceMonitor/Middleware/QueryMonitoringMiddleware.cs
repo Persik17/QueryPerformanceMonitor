@@ -3,6 +3,10 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using System.Diagnostics;
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using System.Linq;
 
 namespace QueryPerformanceMonitor.Middleware
 {
